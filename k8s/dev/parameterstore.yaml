@@ -1,0 +1,8 @@
+apiVersion: ssm.aws/v1alpha1
+kind: ParameterStore
+metadata:
+  name: parameterstore-demo
+spec:
+  valueFrom:
+    parameterStoreRef:
+      path: /path/to/parameters

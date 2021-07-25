@@ -1,0 +1,3 @@
+.idea
+kustomize
+k8s/dev/out

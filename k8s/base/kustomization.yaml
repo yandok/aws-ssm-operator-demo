@@ -1,0 +1,6 @@
+resources:
+  - 200-serviceaccount.yaml
+  - 201-clusterrole.yaml
+  - 202-clusterrolebinding.yaml
+  - 300-ssm-parameterstore-v1alpha1-crd.yaml
+  - operator.yaml
